@@ -1,12 +1,12 @@
-module github.com/caddy-dns/route53
+module github.com/andrew-d/caddy-dns-route53
 
 go 1.21.0
 
 toolchain go1.22.5
 
 require (
+	github.com/andrew-d/libdns-route53 v0.0.0-20240724033752-ea5b84177f64
 	github.com/caddyserver/caddy/v2 v2.8.4
-	github.com/libdns/route53 v1.4.0
 )
 
 require (

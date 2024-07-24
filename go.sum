@@ -1,3 +1,5 @@
+github.com/andrew-d/libdns-route53 v0.0.0-20240724033752-ea5b84177f64 h1:xDXnLecW3J3jMT4zoqB8s2vACfqUykaX3yNjv5qs4bw=
+github.com/andrew-d/libdns-route53 v0.0.0-20240724033752-ea5b84177f64/go.mod h1:5AtDB7kklsrhkX9Kswn6eGWuBxTqu89Z1EOcyByoByI=
 github.com/aws/aws-sdk-go-v2 v1.30.0 h1:6qAwtzlfcTtcL8NHtbDQAqgM5s6NDipQTkPxyH/6kAA=
 github.com/aws/aws-sdk-go-v2 v1.30.0/go.mod h1:ffIFB97e2yNsv4aTSGkqtHnppsIJzw7G7BReUZ3jCXM=
 github.com/aws/aws-sdk-go-v2/config v1.27.21 h1:yPX3pjGCe2hJsetlmGNB4Mngu7UPmvWPzzWCv1+boeM=
@@ -60,8 +62,6 @@ github.com/klauspost/cpuid/v2 v2.2.7 h1:ZWSB3igEs+d0qvnxR/ZBzXVmxkgt8DdzP6m9pfuV
 github.com/klauspost/cpuid/v2 v2.2.7/go.mod h1:Lcz8mBdAVJIBVzewtcLocK12l3Y+JytZYpaMropDUws=
 github.com/libdns/libdns v0.2.2 h1:O6ws7bAfRPaBsgAYt8MDe2HcNBGC29hkZ9MX2eUSX3s=
 github.com/libdns/libdns v0.2.2/go.mod h1:4Bj9+5CQiNMVGf87wjX4CY3HQJypUHRuLvlsfsZqLWQ=
-github.com/libdns/route53 v1.4.0 h1:X33E4H0PVv41vyu8we3+Rh4e41kMIeN62F/jHCcRMJc=
-github.com/libdns/route53 v1.4.0/go.mod h1:hHNeYfUP8fPMG46WmTjBmOgBldfUgangVpwU89RSGu8=
 github.com/mholt/acmez/v2 v2.0.1 h1:3/3N0u1pLjMK4sNEAFSI+bcvzbPhRpY383sy1kLHJ6k=
 github.com/mholt/acmez/v2 v2.0.1/go.mod h1:fX4c9r5jYwMyMsC+7tkYRxHibkOTgta5DIFGoe67e1U=
 github.com/miekg/dns v1.1.59 h1:C9EXc/UToRwKLhK5wKU/I4QVsBUc8kE6MkHBkeypWZs=
