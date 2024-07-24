@@ -39,15 +39,15 @@ func (p *Provider) Provision(ctx caddy.Context) error {
 
 // UnmarshalCaddyfile sets up the DNS provider from Caddyfile tokens. Syntax:
 //
-// route53 {
-//     max_retries <int>
-//     aws_profile <string>
-//     access_key_id <string>
-//     secret_access_key <string>
-//	   token <string>
-//     region <string>
-// }
-//
+//	route53 {
+//	    max_retries <int>
+//	    aws_profile <string>
+//	    access_key_id <string>
+//	    secret_access_key <string>
+//		   token <string>
+//	    region <string>
+//	    hosted_zone_id <string>
+//	}
 func (p *Provider) UnmarshalCaddyfile(d *caddyfile.Dispenser) error {
 	for d.Next() {
 		if d.NextArg() {
@@ -93,6 +93,13 @@ func (p *Provider) UnmarshalCaddyfile(d *caddyfile.Dispenser) error {
 			case "region":
 				if d.NextArg() {
 					p.Provider.Region = d.Val()
+				}
+				if d.NextArg() {
+					return d.ArgErr()
+				}
+			case "hosted_zone_id":
+				if d.NextArg() {
+					p.Provider.HostedZoneID = d.Val()
 				}
 				if d.NextArg() {
 					return d.ArgErr()
